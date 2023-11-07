@@ -145,9 +145,12 @@ span.ds-department{ color: #373737; font-weight: 700; font-size: 18px; padding-b
 	.ds-skills-list li{ margin-right: 10px; margin-bottom: 10px; font-size: 14px; }
 	.ds-skills-section .col-12,.ds-experience-list .col-12{ margin-bottom: 40px; }
 	.ds-skills-section,.ds-work-section, .ds-experience-section{ padding-bottom: 0; }
+	.ds-experience-section { padding-top: 70px; }
 	.ds-experience-list section{ padding-right: 0; }
+	.ds-work-section{ padding-top: 70px; }
 	.ds-work-list{ padding: 30px; }
 	.ds-work-list p{font-size: 15px; line-height: 30px;}
+	.ds-work-list img{ padding-top: 40px; }
 	.ds-footer{ padding: 60px 10px; }
 	.ds-footer section h4{ font-size: 40px; }
 	.ds-copyright{ font-size: 14px; }
