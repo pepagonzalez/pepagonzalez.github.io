@@ -57,6 +57,8 @@ svg,img { max-width: 100%; height: auto; }
 .ds-numbervalulist li:last-child{ margin-right: 0; }
 .ds-numbervalulist strong{ display: block; color: #f8abab; font-size: 36px; font-weight: 800; }
 .ds-numbervalulist span{ font-size: 16px; letter-spacing: 1px; }
+.ds-banner section p {text-transform: uppercase; letter-spacing: 1px;  font-weight: 500; font-size: 14px; padding-bottom: 15px; padding-top: 50px; line-height: 30px;}
+.ds-banner section p span{background-color:#f8abab; border-radius: 4px; padding:8px; justify-content: space-between; }
 /*-----------------------------------------------------------------
   3. >>> About Style
 ----------------------------------------------------------------*/
@@ -138,7 +140,7 @@ span.ds-department{ color: #373737; font-weight: 700; font-size: 18px; padding-b
 	.ds-banner section h1 span{ padding-bottom: 0; }
 	.ds-banner section h1,.ds-work-det-title{ font-size: 30px; line-height: 40px; }
 	.ds-numbervalulist{ margin-top: 20px; }
-	.ds-numbervalulist li{ margin-right: 30px; }
+	.ds-numbervalulist li{ margin-right: 40px; }
 	.ds-numbervalulist strong{ font-size: 30px; }
 	.ds-numbervalulist span{ font-size: 14px; }
 	.ds-about-section{ padding-bottom: 60px; }
@@ -168,6 +170,7 @@ span.ds-department{ color: #373737; font-weight: 700; font-size: 18px; padding-b
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.ds-banner section h1,.ds-work-det-title{ font-size: 20px; line-height: 32px; }
+	.ds-banner section p br{display: none;}
 	.ds-work-list section{ padding-right: 30px; }
 	.ds-button-sec{ padding-top:50px; }
 
@@ -175,6 +178,7 @@ span.ds-department{ color: #373737; font-weight: 700; font-size: 18px; padding-b
 
 @media (min-width: 992px) {
 	.ds-banner section{ padding-right: 0}
+	.ds-banner section p br{display: none;}
 	.ds-work-list section{ padding-right: 30px; padding-bottom:60px; }
 	.ds-work-list image{ padding-bottom:60px; }
 	.ds-button-sec{ padding-top:50px; }
